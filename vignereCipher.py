@@ -66,7 +66,7 @@ def vignereCipherEncryption():
 
         else:
 
-            encryptString = letter + encryptString
+            encryptString += newCharacter
 
     return(encryptString)
 
